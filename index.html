@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Special Gift for an Amazing Uncle ❤️</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Opening Page -->
+    <div id="opening-page" class="opening-page active">
+        <canvas id="particles-canvas"></canvas>
+        <div class="opening-content">
+            <div class="gift-box">
+                <div class="gift-icon">🎁</div>
+            </div>
+            <h1 class="opening-title">A Small Surprise</h1>
+            <p class="opening-subtitle">for an amazing uncle ❤️</p>
+            <div class="floating-elements">
+                <span class="float-item">✨</span>
+                <span class="float-item">💝</span>
+                <span class="float-item">🌟</span>
+                <span class="float-item">💖</span>
+                <span class="float-item">⭐</span>
+                <span class="float-item">💕</span>
+            </div>
+            <button class="continue-btn" id="continue-btn">
+                <span>Open Your Gift</span>
+                <span class="btn-arrow">→</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Main Website -->
+    <div id="main-website" class="main-website">
+        <canvas id="confetti-canvas"></canvas>
+        
+        <!-- Music Toggle -->
+        <button class="music-toggle" id="music-toggle">
+            <span class="music-icon">🎵</span>
+        </button>
+
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <h2 class="hero-title fade-in">Meet Two Amazing Souls</h2>
+                <p class="hero-subtitle fade-in-delay">The brightest stars in our family constellation</p>
+                <div class="scroll-indicator">
+                    <span>↓</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Profile Cards Section -->
+        <section class="profiles-section">
+            <div class="container">
+                <div class="profiles-grid">
+                    <!-- Daughter 1 Profile -->
+                    <div class="profile-card" data-index="0">
+                        <div class="card-shine"></div>
+                        <div class="profile-image">
+                            <div class="image-placeholder">
+                                <span class="placeholder-icon">✨</span>
+                            </div>
+                            <div class="image-frame"></div>
+                        </div>
+                        <div class="profile-info">
+                            <h3 class="profile-name">Yemariyam</h3>
+                            <p class="profile-nickname">"A Light That Shines Bright"</p>
+                            <div class="profile-message">
+                                <p>May your life be filled with endless joy, boundless love, and beautiful adventures. Your presence is a gift to everyone around you, and your future is as bright as the stars that light up the darkest nights. Keep shining, keep dreaming, and know that you are deeply cherished.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Daughter 2 Profile -->
+                    <div class="profile-card" data-index="1">
+                        <div class="card-shine"></div>
+                        <div class="profile-image">
+                            <div class="image-placeholder">
+                                <span class="placeholder-icon">✨</span>
+                            </div>
+                            <div class="image-frame"></div>
+                        </div>
+                        <div class="profile-info">
+                            <h3 class="profile-name">Emrakel</h3>
+                            <p class="profile-nickname">"A Soul Full of Wonder"</p>
+                            <div class="profile-message">
+                                <p>May every step you take lead you to happiness, every dream you have come true, and every day bring you new reasons to smile. You are a blessing beyond measure, and the world is a better place with you in it. Continue to grow, to learn, and to spread your beautiful light wherever you go.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Things We Love Section -->
+        <section class="love-section">
+            <div class="container">
+                <h2 class="section-title">Beautiful Wishes for Your Journey</h2>
+                <div class="love-grid">
+                    <div class="love-card">
+                        <span class="love-icon">🌙</span>
+                        <h3>May You Find Peace</h3>
+                        <p>In every moment, may tranquility guide your heart and calm your spirit</p>
+                    </div>
+                    <div class="love-card">
+                        <span class="love-icon">✨</span>
+                        <h3>May You Discover Magic</h3>
+                        <p>In the simple joys of life and the beauty that surrounds you</p>
+                    </div>
+                    <div class="love-card">
+                        <span class="love-icon">💫</span>
+                        <h3>May You Always Shine</h3>
+                        <p>Like the brightest stars in the night sky, illuminating the world</p>
+                    </div>
+                    <div class="love-card">
+                        <span class="love-icon">🌟</span>
+                        <h3>May Love Surround You</h3>
+                        <p>In every season, in every place, and in every breath you take</p>
+                    </div>
+                    <div class="love-card">
+                        <span class="love-icon">🦋</span>
+                        <h3>May You Flourish</h3>
+                        <p>Growing stronger and more beautiful with each passing day</p>
+                    </div>
+                    <div class="love-card">
+                        <span class="love-icon">🌺</span>
+                        <h3>May Joy Be Yours</h3>
+                        <p>Today, tomorrow, and always, filling your life with happiness</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Memory Timeline Section -->
+        <section class="timeline-section">
+            <div class="container">
+                <h2 class="section-title">Precious Moments</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>The Beginning</h3>
+                            <p>When you first entered our lives and filled our hearts with light</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Growing Together</h3>
+                            <p>Watching you discover the world with wonder in your eyes</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Beautiful Memories</h3>
+                            <p>Every laugh, every smile, every moment we've shared</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>The Journey Ahead</h3>
+                            <p>Endless possibilities and dreams waiting to unfold</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Photo Gallery Section -->
+        <section class="gallery-section">
+            <div class="container">
+                <h2 class="section-title">Our Beautiful Memories</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <div class="gallery-placeholder">📸</div>
+                        <p>Photo 1</p>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-placeholder">📸</div>
+                        <p>Photo 2</p>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-placeholder">📸</div>
+                        <p>Photo 3</p>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-placeholder">📸</div>
+                        <p>Photo 4</p>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-placeholder">📸</div>
+                        <p>Photo 5</p>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-placeholder">📸</div>
+                        <p>Photo 6</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Heartfelt Message Section -->
+        <section class="message-section">
+            <div class="container">
+                <div class="message-card">
+                    <div class="message-icon">💌</div>
+                    <h2>To My Amazing Uncle</h2>
+                    <div class="message-text">
+                        <p>Dear Uncle,</p>
+                        <p>Your daughters are a reflection of the incredible father and role model you are. Watching them grow into such wonderful young women fills my heart with joy. Thank you for being not just an uncle, but a mentor, a friend, and an inspiration.</p>
+                        <p>The love and values you've instilled in your family shine through in everything they do. Your dedication, kindness, and strength have created a home filled with laughter, love, and endless possibilities.</p>
+                        <p>This website is just a small token of appreciation for all the memories we've shared and the bond we continue to build. Your family is truly blessed, and so am I to have you in my life.</p>
+                        <p class="message-signature">With all my love and gratitude,<br>Your Nephew/Niece ❤️</p>
+                    </div>
+                    <div class="quote-section">
+                        <blockquote>
+                            "Family is not an important thing. It's everything."
+                            <footer>— Michael J. Fox</footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Made with Yeabsira for an incredible family and tell your wife I admire and love her</p>
+            <p class="footer-date">June 2026</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
